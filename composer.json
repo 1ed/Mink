@@ -16,7 +16,7 @@
 
     "require": {
         "php":                   "^7.2|^8.0",
-        "symfony/css-selector":  "^3.4|^4.4|^5.0"
+        "symfony/css-selector":  "^3.4|^4.4|^5.0|^6.0"
     },
 
     "require-dev": {

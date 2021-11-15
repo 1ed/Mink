@@ -14,6 +14,11 @@ env:
   - SYMFONY_VERSION=5.0.*
   - SYMFONY_VERSION=5.2.*
 
+jobs:
+  include:
+  - php: 8.0
+    env: SYMFONY_VERSION=6.0.x@dev
+
 cache:
   directories:
     - $HOME/symfony-bridge/.phpunit
